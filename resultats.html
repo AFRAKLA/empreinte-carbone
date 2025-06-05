@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Résultats Empreinte Carbone</title>
+  <link rel="stylesheet" href="../CSS/resultats.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Résultats hebdomadaires</h1>
+
+    <div class="total-box" id="resume">
+      <p><strong> Repas :</strong> <span id="repasCO2">0</span> kg CO₂</p>
+      <p><strong> Transport :</strong> <span id="transportCO2">0</span> kg CO₂</p>
+      <p><strong> Numérique :</strong> <span id="numeriqueCO2">0</span> kg CO₂</p>
+        <p><strong> Chauffage :</strong> <span id="chauffageCO2">0</span> kg CO₂</p>
+      <hr>
+      <p><strong>Total :</strong> <span id="totalCO2">0</span> kg CO₂</p>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="resultatsGraph" width="300" height="300"></canvas>
+    </div>
+
+    <div class="bouton-retour">
+      <a href="menu.html">
+        <button> Retour au menu</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="../Java-S/resultats.js"></script>
+</body>
+</html>

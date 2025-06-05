@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Repas - Empreinte Carbone</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Empreinte carbone - Repas</h1>
+    <form id="repas-form">
+      <label for="nb-repas">Nombre total de repas cette semaine :</label>
+      <input type="number" id="nb-repas" required>
+
+      <p>Quel type de repas consommez-vous le plus ?</p>
+      <div class="checkbox-grid">
+        <label><input type="checkbox" name="type-repas" value="vegetarien"> Végétarien</label>
+        <label><input type="checkbox" name="type-repas" value="mixte"> Mixte</label>
+        <label><input type="checkbox" name="type-repas" value="viande"> Riche en viande</label>
+      </div>
+
+      <button type="submit">Calculer mon impact carbone</button>
+    </form>
+    
+    <a href="menu.html">
+      <button type="button"> Retour au menu</button>
+    </a>
+    
+    <p id="resultat"></p>
+  </div>
+  
+  <script src="../Java-S/repas.js"></script>
+</body>
+</html>

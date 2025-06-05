@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ecf0f3;
+    color: #2c3e50;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #16a085;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(22, 160, 133, 0.2);
+  }
+  
+  button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #16a085;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #1abc9c;
+    transform: scale(1.03);
+  }
+  
+  #result {
+    margin-top: 30px;
+    padding: 15px;
+    background: #eafaf1;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #27ae60;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  #result.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .bouton-retour {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bouton-retour button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #bdc3c7;
+    color: #2c3e50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .bouton-retour button:hover {
+    background-color: #95a5a6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    body {
+      padding: 20px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  }
+  

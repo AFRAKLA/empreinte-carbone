@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ecf0f3;
+  color: #2c3e50;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.primary-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #16a085;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #1abc9c;
+}
+
+.result-container {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #eafaf1;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #27ae60;
+  text-align: center;
+}
+
+.bouton-retour {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.bouton-retour button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bouton-retour button:hover {
+  background-color: #95a5a6;
+}

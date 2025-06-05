@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur d'impact CO2</title>
+    <link rel="stylesheet" href="../CSS/style_impact_CO2.css">
+    <script src="../Java-S/impact_Scripte.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculateur d'impact carbone</h1>
+      <p class="subtitle">Chauffage au gaz</p>
+  
+      <div class="input-group">
+        <label for="surface">Surface (m²)</label>
+        <input type="number" id="surface" value="10000" min="1">
+      </div>
+  
+      <button onclick="calculate()" class="primary-btn">Calculer</button>
+  
+      <div id="result" class="result-container"></div>
+  
+      <div class="bouton-retour">
+        <a href="menu.html">
+          <button type="button"> Retour au menu</button>
+        </a>
+      </div>
+    </div>
+  </body>
+  </html>
+  

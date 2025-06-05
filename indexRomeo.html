@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcul CO₂ Transport</title>
+  <link rel="stylesheet" href="../CSS/indexRomeo.css">
+  <script src="../Java-S/transportSncf.js" defer></script>
+</head>
+<body>
+  <h1>Calculateur CO₂ Transport</h1>
+
+  <label>Mode de transport :</label>
+  <select id="mode-transport">
+    <option value="train">Train</option>
+    <option value="voiture">Voiture</option>
+    <option value="bus">Bus</option>
+    <option value="metro">Métro</option>
+    <option value="tramway">Tramway</option>
+    <option value="velo">Velo</option>
+  </select>
+
+  <label>Type :</label>
+  <select id="type-transport"></select>
+
+  <label>Distance (km) :</label>
+  <input type="number" id="distance" placeholder="Ex: 100" />
+
+  <label>Allers-retours par semaine :</label>
+  <input type="number" id="frequence" value="2" />
+
+  <button id="calculer">Calculer</button>
+
+  <div id="resultat" style="display:none;">
+    <h2>Résultat</h2>
+    <p>Émission hebdomadaire : <strong><span id="co2"></span></strong> kg CO₂e</p>
+  </div>
+
+  <footer><p> <em>Réalisé par: Anicet Darcia NKOUNKOU LOKO</em></p></footer>
+<div class="bouton-retour" style="text-align: center; margin-top: 20px;">
+  <a href="menu.html">
+    <button type="button" style="background-color: #bdc3c7; color: #2c3e50; padding: 10px 20px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">
+       Retour au menu
+    </button>
+  </a>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculateur d'Empreinte Carbone - Numérique</title>
+        <link rel="stylesheet" href="../CSS/numerique.css">
+      </head>
+      <body>
+        <div class="container">
+          <h3>Usages Numériques</h3>
+          
+          <label>
+            Heures de streaming (Netflix, YouTube...) :
+            <input type="number" id="streaming" min="0" placeholder="Ex: 5">
+          </label>
+          
+          <label>
+            Heures de visioconférence (Zoom, Teams...) :
+            <input type="number" id="visio" min="0" placeholder="Ex: 3">
+          </label>
+          
+          <label>
+            Stockage Cloud (en Go) :
+            <input type="number" id="cloud" min="0" placeholder="Ex: 20">
+          </label>
+          
+          <button id="calculate-btn">Calculer mon impact</button>
+          
+          <div id="result"></div>
+      
+          <div class="bouton-retour">
+            <a href="menu.html">
+              <button type="button"> Retour au menu</button>
+            </a>
+          </div>
+        </div>
+      
+        <script src="../Java-S/numerique.js"></script>
+      </body>
+      </html>
